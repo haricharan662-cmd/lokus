@@ -50,7 +50,7 @@ export default function IconSidebar({ onOpenBasesTab, onOpenGraphView }) {
   const showBases = activeTab === '__bases__';
   const showGraphView = activeTab === '__graph__';
 
-  const isExplorer = !showKanban && !showPlugins && !showTeams && !showBases && !showGraphView && showLeft;
+  const isExplorer = !showBookmarks && !showKanban && !showPlugins && !showTeams && !showBases && !showGraphView && showLeft;
   const isKanbanActive = showKanban && !showPlugins && !showBases && !showGraphView;
   const isPluginsActive = showPlugins && !showKanban && !showBases && !showGraphView;
   const isBasesActive = showBases && !showKanban && !showPlugins && !showGraphView;
